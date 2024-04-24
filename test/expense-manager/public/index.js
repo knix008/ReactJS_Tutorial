@@ -530,9 +530,41 @@
 	var reactDomExports = reactDom.exports;
 	var ReactDOM = /*@__PURE__*/getDefaultExportFromCjs(reactDomExports);
 
+	function styleInject(css, ref) {
+	  if ( ref === void 0 ) ref = {};
+	  var insertAt = ref.insertAt;
+
+	  if (!css || typeof document === 'undefined') { return; }
+
+	  var head = document.head || document.getElementsByTagName('head')[0];
+	  var style = document.createElement('style');
+	  style.type = 'text/css';
+
+	  if (insertAt === 'top') {
+	    if (head.firstChild) {
+	      head.insertBefore(style, head.firstChild);
+	    } else {
+	      head.appendChild(style);
+	    }
+	  } else {
+	    head.appendChild(style);
+	  }
+
+	  if (style.styleSheet) {
+	    style.styleSheet.cssText = css;
+	  } else {
+	    style.appendChild(document.createTextNode(css));
+	  }
+	}
+
+	var css_248z = "div.itemStyle {\r\n  color: 'brown';\r\n  font-size: 14px;\r\n}";
+	styleInject(css_248z);
+
 	class HelloWorld extends React.Component {
 	  render() {
-	    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", null, "Hello World!"));
+	    return /*#__PURE__*/React.createElement("div", {
+	      className: css_248z.itemStyle
+	    }, /*#__PURE__*/React.createElement("h1", null, "Hello World!"));
 	  }
 	}
 
