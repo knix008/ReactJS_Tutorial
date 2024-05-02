@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import RichTextMessage from './components/RichTextMessage';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RichTextMessage>
+      <h1>Containment is really an excellent feature.</h1>
+    </RichTextMessage>
   </React.StrictMode>
 );
 
