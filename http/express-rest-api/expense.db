@@ -1,0 +1,22 @@
+{"name":"Pizza","amount":80,"spend_date":{"$$date":1602288000000},"category":"Food","_id":"GrJwC5ArbzvYusof"}
+{"name":"Grape Juice","amount":30,"spend_date":{"$$date":1602460800000},"category":"Food","_id":"JYUAm6dxXeOIQ06x"}
+{"name":"Cinema","amount":210,"spend_date":{"$$date":1602806400000},"category":"Entertainment","_id":"9jmebNaxKYcfbNm6"}
+{"name":"Java Programming book","amount":242,"spend_date":{"$$date":1602720000000},"category":"Academic","_id":"XT8s33igjzchYwi7"}
+{"name":"Mango Juice","amount":35,"spend_date":{"$$date":1602806400000},"category":"Food","_id":"re98viOAmcpdnGM6"}
+{"name":"Dress","amount":2000,"spend_date":{"$$date":1603584000000},"category":"Cloth","_id":"NtjD4mUgwpoWolum"}
+{"name":"Tour","amount":2555,"spend_date":{"$$date":1603929600000},"category":"Entertainment","_id":"L5ftuyx4dCpHA3dH"}
+{"name":"Meals","amount":300,"spend_date":{"$$date":1604016000000},"category":"Food","_id":"n4CWppoK7FsSf5Zs"}
+{"name":"Mobile","amount":3500,"spend_date":{"$$date":1604275200000},"category":"Gadgets","_id":"16xXisk9mqhScEsz"}
+{"name":"Exam Fees","amount":1245,"spend_date":{"$$date":1604448000000},"category":"Academic","_id":"PSha7I5ln31nLQ5P"}
+{"name":"","amount":null,"spend_date":null,"_id":"O5DkB0dD2lbqYNrp"}
+{"$$deleted":true,"_id":"16xXisk9mqhScEsz"}
+{"$$deleted":true,"_id":"re98viOAmcpdnGM6"}
+{"$$deleted":true,"_id":"n4CWppoK7FsSf5Zs"}
+{"$$deleted":true,"_id":"XT8s33igjzchYwi7"}
+{"$$deleted":true,"_id":"PSha7I5ln31nLQ5P"}
+{"$$deleted":true,"_id":"O5DkB0dD2lbqYNrp"}
+{"$$deleted":true,"_id":"NtjD4mUgwpoWolum"}
+{"$$deleted":true,"_id":"L5ftuyx4dCpHA3dH"}
+{"$$deleted":true,"_id":"JYUAm6dxXeOIQ06x"}
+{"$$deleted":true,"_id":"GrJwC5ArbzvYusof"}
+{"$$deleted":true,"_id":"9jmebNaxKYcfbNm6"}
